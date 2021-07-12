@@ -1,0 +1,135 @@
+body {
+  background-color: #ffffdd;
+  margin: 0 auto;
+}
+
+.header-container {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #006a71;
+}
+
+.header-container h1 {
+  font-size: 52px;
+  padding-top: 42px;
+  padding-bottom: 12px;
+  color: #d3de32;
+  font-weight: lighter;
+}
+
+.header-container p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #f4f6ff;
+  padding-bottom: 42px;
+}
+
+section {
+  margin: 66px 22px;
+}
+
+#ingredients {
+  margin-top: 22px;
+  width: 22%;
+  height: fit-content;
+  background-color: #d3de32;
+  border-radius: 35px;
+  margin-left: 48px;
+  padding: 18px 2px;
+}
+
+#ingredients h3 {
+  color: #2d334a;
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 8px;
+  font-weight: lighter;
+}
+
+#ingredients li {
+  color: #2d334a;
+  font-size: 14px;
+  line-height: 28px;
+  padding-bottom: 6px;
+  font-weight: 400;
+}
+
+#ingredients ul {
+  list-style: square;
+}
+
+#instructions {
+  background-color: #cbeaed;
+  width: fit-content;
+  padding: 28px 38px;
+  margin-left: 108px;
+  border-radius: 8px;
+}
+
+#instructions h3 {
+  color: #2d334a;
+  text-align: left;
+  padding-left: 22px;
+  font-size: 28px;
+  font-weight: lighter;
+  padding-bottom: 18px;
+}
+
+#instructions ol {
+  line-height: 42px;
+  font-size: 16px;
+}
+
+#instructions li {
+  font-weight: 400;
+  color: #2d334a;
+}
+
+.photos {
+  text-align: center;
+}
+
+img {
+  margin: 22px 60px;
+  padding: 35px 35px;
+  width: 22%;
+  background-color: #d3de32;
+}
+
+.topfive-container {
+  margin: 0 auto;
+  background-color: #006a71;
+  color: #f4f6ff;
+}
+
+.topfive-container h3 {
+  padding: 32px 0 12px 0;
+  font-size: 26px;
+  text-align: center;
+  font-weight: lighter;
+  color: #d3de32;
+}
+
+.topfive-container ul {
+  line-height: 32px;
+  list-style: none;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.topfive-container a {
+  color: #cbeaed;
+}
+
+.topfive-container a:hover {
+  color: #d3de32;
+}
+
+footer {
+  padding-left: 22px;
+  font-size: 14px;
+}
+
+/* I like to use https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference.*/
