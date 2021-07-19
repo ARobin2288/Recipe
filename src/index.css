@@ -24,18 +24,19 @@ body {
   padding-bottom: 42px;
 }
 
-section {
-  margin: 66px 22px;
+#directions {
+  margin: auto 0;
+  padding: 22px 42px 55px 42px;
 }
 
 #ingredients {
-  margin-top: 22px;
-  width: 22%;
+  margin: 0 auto;
+  width: auto;
   height: fit-content;
   background-color: #d3de32;
-  border-radius: 35px;
-  margin-left: 48px;
-  padding: 18px 2px;
+  border-radius: 8px;
+  padding: 18px 18px 2px 18px;
+  margin-top: 48px;
 }
 
 #ingredients h3 {
@@ -44,35 +45,34 @@ section {
   text-align: center;
   padding-bottom: 8px;
   font-weight: lighter;
+  line-height: 34px;
 }
 
 #ingredients li {
   color: #2d334a;
   font-size: 14px;
-  line-height: 28px;
+  line-height: 30px;
   padding-bottom: 6px;
   font-weight: 400;
 }
 
-#ingredients ul {
-  list-style: square;
-}
-
 #instructions {
+  margin: 0 auto;
   background-color: #cbeaed;
-  width: fit-content;
-  padding: 28px 38px;
-  margin-left: 108px;
+  padding: 28px 0px 8px 50px;
   border-radius: 8px;
+  margin-top: 24px;
+  letter-spacing: 2px;
+  line-height: 30px;
 }
 
 #instructions h3 {
   color: #2d334a;
-  text-align: left;
-  padding-left: 22px;
+  text-align: center;
   font-size: 28px;
   font-weight: lighter;
   padding-bottom: 18px;
+  line-height: 30px;
 }
 
 #instructions ol {
@@ -83,6 +83,7 @@ section {
 #instructions li {
   font-weight: 400;
   color: #2d334a;
+  list-style-type: upper-roman;
 }
 
 .photos {
@@ -98,23 +99,23 @@ img {
 
 .topfive-container {
   margin: 0 auto;
+  padding: 32px 0px;
+  text-align: center;
   background-color: #006a71;
   color: #f4f6ff;
 }
 
 .topfive-container h3 {
-  padding: 32px 0 12px 0;
-  font-size: 26px;
-  text-align: center;
+  font-size: 28px;
   font-weight: lighter;
   color: #d3de32;
+  letter-spacing: 2px;
+  line-height: 32px;
 }
 
 .topfive-container ul {
   line-height: 32px;
-  list-style: none;
   font-size: 16px;
-  text-align: center;
   font-weight: 400;
   letter-spacing: 2px;
 }
@@ -125,6 +126,12 @@ img {
 
 .topfive-container a:hover {
   color: #d3de32;
+}
+
+.topfive-container span {
+  font-family: italic;
+  text-decoration: underline;
+  color: tomato;
 }
 
 footer {
