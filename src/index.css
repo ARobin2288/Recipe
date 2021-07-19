@@ -10,18 +10,21 @@ body {
 }
 
 .header-container h1 {
-  font-size: 52px;
+  font-size: 58px;
   padding-top: 42px;
   padding-bottom: 12px;
   color: #d3de32;
   font-weight: lighter;
+  letter-spacing: 4px;
 }
 
 .header-container p {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
   color: #f4f6ff;
   padding-bottom: 42px;
+  letter-spacing: 2px;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 #directions {
@@ -46,6 +49,9 @@ body {
   padding-bottom: 8px;
   font-weight: lighter;
   line-height: 34px;
+  background-color: #f4f6ff;
+  border-radius: 8px;
+  margin-bottom: 28px;
 }
 
 #ingredients li {
@@ -54,6 +60,12 @@ body {
   line-height: 30px;
   padding-bottom: 6px;
   font-weight: 400;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#ingredients .fa-square {
+  color: #f4f6ff;
+  background-color: #f4f6ff;
 }
 
 #instructions {
@@ -67,34 +79,44 @@ body {
 }
 
 #instructions h3 {
+  margin: 0 auto;
   color: #2d334a;
+  font-size: 22px;
   text-align: center;
-  font-size: 28px;
+  padding-bottom: 8px;
   font-weight: lighter;
-  padding-bottom: 18px;
-  line-height: 30px;
+  line-height: 34px;
+  background-color: #f4f6ff;
+  border-radius: 8px;
+  width: 375px;
+  margin-bottom: 38px;
 }
 
 #instructions ol {
   line-height: 42px;
   font-size: 16px;
+  margin-bottom: 28px;
 }
 
 #instructions li {
   font-weight: 400;
   color: #2d334a;
   list-style-type: upper-roman;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .photos {
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
 img {
-  margin: 22px 60px;
-  padding: 35px 35px;
-  width: 22%;
-  background-color: #d3de32;
+  margin: 0 auto;
+  padding: 42px 42px;
+  width: 20%;
+  border-radius: 44%;
+  background-color: tomato;
 }
 
 .topfive-container {
@@ -103,6 +125,7 @@ img {
   text-align: center;
   background-color: #006a71;
   color: #f4f6ff;
+  margin-top: 78px;
 }
 
 .topfive-container h3 {
@@ -111,6 +134,7 @@ img {
   color: #d3de32;
   letter-spacing: 2px;
   line-height: 32px;
+  padding-bottom: 18px;
 }
 
 .topfive-container ul {
@@ -120,23 +144,14 @@ img {
   letter-spacing: 2px;
 }
 
+.topfive-container li {
+  padding-bottom: 8px;
+}
+
 .topfive-container a {
-  color: #cbeaed;
+  color: tomato;
 }
 
 .topfive-container a:hover {
   color: #d3de32;
 }
-
-.topfive-container span {
-  font-family: italic;
-  text-decoration: underline;
-  color: tomato;
-}
-
-footer {
-  padding-left: 22px;
-  font-size: 14px;
-}
-
-/* I like to use https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference.*/
