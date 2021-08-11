@@ -1,6 +1,8 @@
 function checklist() {
-  let li = document.querySelector(".checklist");
-  li.innerhtml = "Got It!";
+  let check = document.querySelector("h6");
+  check.innerhtml = "X";
+
+  alert("got it!");
 }
 
 let doneButton = document.querySelector(".checklist");

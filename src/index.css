@@ -78,13 +78,13 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.ingredients .checklist {
+.ingredients button {
   color: #f4f6ff;
   background-color: #f4f6ff;
   width: 18px;
   height: 18px;
   margin-left: -28px;
-  margin-right: 8px;
+  margin-right: 120px;
   border: none;
 }
 
