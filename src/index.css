@@ -49,31 +49,43 @@ body {
   max-width: 33%;
 }
 
+.fa-shopping-basket {
+  margin-left: -22px;
+  margin-right: 18px;
+}
+
 .ingredients h3 {
   margin: 0 auto;
   color: #2d334a;
   font-size: 22px;
   text-align: center;
-  font-weight: lighter;
   line-height: 34px;
   background-color: #f4f6ff;
   border-radius: 8px;
   margin-bottom: 28px;
   padding: 8px 8px;
+  letter-spacing: 1.6px;
+}
+
+.ingredients ul {
+  margin-bottom: -8px;
 }
 
 .ingredients li {
   color: #2d334a;
-  font-size: 15px;
-  line-height: 30px;
-  padding-bottom: 6px;
-  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.ingredients .fa-square {
+.ingredients .checklist {
   color: #f4f6ff;
   background-color: #f4f6ff;
+  width: 18px;
+  height: 18px;
+  margin-left: -28px;
+  margin-right: 8px;
+  border: none;
 }
 
 .instructions {
