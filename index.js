@@ -1,10 +1,11 @@
-function checklist() {
-  let check = document.querySelector("h6");
-  check.innerhtml = "X";
+function joining() {
+  let name = prompt("What is your preferred name?");
+  let email = prompt("What's your email address?");
 
-  alert("got it!");
+  let h2 = document.querySelector("h2");
+  h2.innerHTML = "Welcome " + name + ", thanks for joining!";
 }
 
-let doneButton = document.querySelector(".checklist");
+let signupButton = document.querySelector(".joinNow");
 
-doneButton.addEventListener("click", checklist);
+signupButton.addEventListener("click", joining);

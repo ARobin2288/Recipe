@@ -68,24 +68,25 @@ body {
 }
 
 .ingredients ul {
-  margin-bottom: -8px;
+  margin-top: 32px;
+  margin-left: -22px;
 }
 
 .ingredients li {
+  margin: 32px 0px;
   color: #2d334a;
   font-size: 16px;
-  line-height: 22px;
-  font-family: "Roboto Condensed", sans-serif;
+  list-style-type: none;
+  padding-bottom: 18px;
 }
 
 .ingredients button {
   color: #f4f6ff;
-  background-color: #f4f6ff;
-  width: 18px;
-  height: 18px;
-  margin-left: -28px;
-  margin-right: 120px;
-  border: none;
+  background-color: #a6a7ac;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  margin-right: 12px;
 }
 
 .instructions {
@@ -145,26 +146,27 @@ img:hover {
 .topfive-container {
   margin: 0 auto;
   padding: 32px 0px;
-  text-align: center;
   background-color: #006a71;
   color: #f4f6ff;
   margin-top: 78px;
+}
+
+#topList {
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 32px;
 }
 
 .topfive-container h3 {
   font-size: 28px;
   font-weight: lighter;
   color: #d3de32;
-  letter-spacing: 2px;
-  line-height: 32px;
   padding-bottom: 18px;
 }
 
 .topfive-container ul {
-  line-height: 32px;
   font-size: 16px;
   font-weight: 400;
-  letter-spacing: 2px;
 }
 
 .topfive-container li {
@@ -178,6 +180,18 @@ img:hover {
 
 .topfive-container a:hover {
   color: #d3de32;
+}
+
+#contactMe {
+  text-align: center;
+  margin: 58px 400px;
+  border: 1px solid;
+  padding: 58px 0;
+}
+
+#contactMe .joinNow {
+  margin-top: 52px;
+  padding: 8px 22px;
 }
 
 footer {
