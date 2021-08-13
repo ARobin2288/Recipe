@@ -33,94 +33,211 @@ body {
 }
 
 #directions {
-  margin: auto 0;
-  display: flex;
+  margin: 0 auto;
   padding: 22px 42px 55px 42px;
+  display: flex;
+  justify-content: center;
 }
 
-.ingredients {
+#ingredients {
   margin: 0 auto;
   width: auto;
   height: fit-content;
   background-color: #d3de32;
-  border-radius: 8px;
-  padding: 18px 18px 2px 18px;
-  margin-top: 48px;
-  max-width: 33%;
+  padding: 32px 32px;
+  letter-spacing: 1.2px;
 }
 
-.fa-shopping-basket {
-  margin-left: -22px;
-  margin-right: 18px;
+.ingredTop {
+  text-align: left;
+  padding-left: 22px;
+background-color: #f4f6ff;
+padding: 13px 22px;
+border-radius: 2px;
 }
 
-.ingredients h3 {
+.ingredTop i {
+  color: #2d334a;
+  padding-right: 22px;
+}
+
+.ingredTop h3 {
+  letter-spacing: 2px;
+  font-weight: 100;
+  font-size: 28px;
   margin: 0 auto;
   color: #2d334a;
-  font-size: 22px;
-  text-align: center;
-  line-height: 34px;
   background-color: #f4f6ff;
-  border-radius: 8px;
-  margin-bottom: 28px;
-  padding: 8px 8px;
-  letter-spacing: 1.6px;
 }
 
-.ingredients ul {
-  margin-top: 38px;
-  margin-left: -22px;
-  margin-bottom: -32px;
-  margin-right: 22px;
+#ingredients ul {
+  padding: 22px 0;
+  list-style: none;
 }
 
-.ingredients li {
-  margin: 32px 0px;
-  color: #2d334a;
-  font-size: 16px;
-  list-style-type: none;
-  padding-bottom: 18px;
+#ingredients .container {
   font-family: "Roboto Condensed", sans-serif;
+  color: #2d334a;
+  display: block;
+  position: relative;
+  margin-top: 28px;
+  cursor: pointer;
+  font-size: 16px;
+  padding-left: 38px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-.ingredients input {
-  margin-right: 8px;
+#ingredients .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
 }
 
-.instructions {
+#ingredients .checkmark {
+  position: absolute;
+  left: 0px;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+}
+
+#ingredients .container:hover input ~ .checkmark {
+  background-color: #f4f6ff;
+}
+
+#ingredients .container input:checked ~ .checkmark {
+  background-color: tomato;
+}
+
+#ingredients .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#ingredients .container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+
+#ingredients .container .checkmark:after {
+  right: 0px;
+  top: -10px;
+  width: 10px;
+  height: 24px;
+  border: solid #f4f6ff;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+
+
+
+
+
+
+
+#instructions {
   margin: 0 auto;
   background-color: #cbeaed;
-  padding: 28px 50px 8px 25px;
-  border-radius: 8px;
-  margin-top: 24px;
-  letter-spacing: 2px;
-  line-height: 30px;
-  max-width: 50%;
+  padding: 32px 32px;
+  letter-spacing: 1.2px;
+  margin-left: 22px;
 }
 
-.instructions h3 {
+.instructTop {
+  text-align: left;
+  padding-left: 22px;
+background-color: #f4f6ff;
+padding: 13px 22px;
+border-radius: 2px;
+}
+
+.instructTop i {
+  padding-right: 232px;
+  color: #2d334a;
+}
+
+.instructTop h3 {
+  letter-spacing: 2px;
+  font-weight: 100;
+  font-size: 32px;
   margin: 0 auto;
   color: #2d334a;
-  font-size: 22px;
-  text-align: center;
-  font-weight: lighter;
-  line-height: 34px;
-  background-color: #f4f6ff;
-  border-radius: 8px;
-  padding: 8px 18px;
 }
 
-.instructions ol {
-  line-height: 42px;
-  font-size: 16px;
-  margin-bottom: 28px;
+#instructions ol {
+  padding: 22px 0 22px 32px;
 }
 
-.instructions li {
-  font-weight: 400;
-  color: #2d334a;
-  list-style-type: upper-roman;
+#instructions .container {
   font-family: "Roboto Condensed", sans-serif;
+  color: #2d334a;
+  display: block;
+  position: relative;
+  padding-left: 2px;
+  margin-top: 52px;
+  margin-right: 38px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#instructions .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+#instructions .checkmark {
+  position: absolute;
+  right: 8px;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+#instructions .container:hover input ~ .checkmark {
+  background-color: #f4f6ff;
+}
+
+#instructions .container input:checked ~ .checkmark {
+  background-color: tomato;
+}
+
+#instructions .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#instructions .container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+#instructions .container .checkmark:after {
+  left: 12px;
+  top: -10px;
+  width: 12px;
+  height: 28px;
+  border: solid #f4f6ff;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .photos {
@@ -189,17 +306,32 @@ img:hover {
   border-radius: 1%;
   width: fit-content;
   height: fit-content;
+  margin-top: 58px;
 }
 
 #contactMe h2 {
   font-size: 18px;
-  
+  margin-bottom: -2px;
+  letter-spacing: 1px;
+  color: #f4f6ff;
+  font-weight: lighter;
 }
 
 #contactMe .joinNow {
   padding: 6px 8px;
   font-size: 12px;
-  border-radius: 8%;
+  border-radius: 4%;
+  letter-spacing: 1px;
+  color: #006a71;
+  background-color: #f4f6ff;
+  border-color: #f4f6ff;
+  font-weight: bolder;
+}
+
+#contactMe .joinNow:hover {
+  background-color: #d3de32;
+  color: #f4f6ff;
+  border-color: #d3de32;
 }
 
 footer {

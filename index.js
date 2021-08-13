@@ -18,7 +18,7 @@ function joining() {
 
   if (age >= 21) {
     updateHeading(
-      `Welcome ${name}, don't forget to checkout our Signiture Cocktails section!`);
+      `Welcome ${name}, don't forget to checkout our cocktail recipes!`);
   } else {
     updateHeading(`Welcome ${name}, thanks for joining!`);
   }
