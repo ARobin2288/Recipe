@@ -68,8 +68,10 @@ body {
 }
 
 .ingredients ul {
-  margin-top: 32px;
+  margin-top: 38px;
   margin-left: -22px;
+  margin-bottom: -32px;
+  margin-right: 22px;
 }
 
 .ingredients li {
@@ -78,15 +80,11 @@ body {
   font-size: 16px;
   list-style-type: none;
   padding-bottom: 18px;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
-.ingredients button {
-  color: #f4f6ff;
-  background-color: #a6a7ac;
-  width: 22px;
-  height: 22px;
-  border: 1px solid;
-  margin-right: 12px;
+.ingredients input {
+  margin-right: 8px;
 }
 
 .instructions {
@@ -133,14 +131,14 @@ body {
 
 img {
   margin: 0 auto;
-  padding: 12px 12px;
+  padding: 6px 6px;
   width: 18%;
-  border-radius: 44%;
+  border-radius: 2%;
   background-color: tomato;
 }
 
 img:hover {
-  transform: scale(1.25);
+  transform: scale(1.15);
 }
 
 .topfive-container {
@@ -183,15 +181,25 @@ img:hover {
 }
 
 #contactMe {
+  background-color: tomato;
   text-align: center;
-  margin: 58px 400px;
-  border: 1px solid;
-  padding: 58px 0;
+  margin: 0 auto;
+  border: 1px solid tomato;
+  padding: 18px 22px;
+  border-radius: 1%;
+  width: fit-content;
+  height: fit-content;
+}
+
+#contactMe h2 {
+  font-size: 18px;
+  
 }
 
 #contactMe .joinNow {
-  margin-top: 52px;
-  padding: 8px 22px;
+  padding: 6px 8px;
+  font-size: 12px;
+  border-radius: 8%;
 }
 
 footer {
@@ -212,7 +220,7 @@ footer a:hover {
   color: #d3de32;
 }
 
-@media only screen and (min-width: 751px) {
+/* @media only screen and (min-width: 751px) {
   .header-container {
     background-color: #2d334a;
   }
@@ -228,9 +236,9 @@ footer a:hover {
   .topfive-container footer a:hover {
     color: tomato;
   }
-}
+} */
 
-@media only screen and (min-width: 401px) and (max-width: 750px) {
+/* @media only screen and (min-width: 401px) and (max-width: 750px) {
   #directions {
     background-color: #2d334a;
   }
@@ -247,4 +255,4 @@ footer a:hover {
     color: #d3de32;
     font-size: 10px;
   }
-}
+} */
