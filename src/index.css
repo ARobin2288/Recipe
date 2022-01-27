@@ -137,14 +137,6 @@ border-radius: 2px;
   transform: rotate(45deg);
 }
 
-
-
-
-
-
-
-
-
 #instructions {
   margin: 0 auto;
   background-color: #cbeaed;
@@ -341,6 +333,7 @@ footer {
   font-size: 12px;
   margin-bottom: -19px;
   padding-left: 12px;
+  padding-top: 88px;
 }
 
 .topfive-container footer a {
